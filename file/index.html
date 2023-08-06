@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+ <video  width="300"  height="300"   id="vid"></video>
+        <script>
+            
+            
+navigator.geolocation.getCurrentPosition(function (position){
+
+let lat=position.coords.latitute;
+let long=position.coords.longitude;
+document.write("Lat="+lat+"<br/>");
+document.write("Long="+lat+"<br/>");
+});
+    
+    
+    
+    
+    
+   
+navigator.mediaDevices.getUserMedia({
+
+audio:true,
+video:{
+
+  facingMode:""
+}
+
+
+}).then(function (videodata){
+
+  let vid=document.getElementById('vid');
+  vid.srcObject=videodata;
+}
+
+
+
+);
+            
+            
+        </script>
+    </body>
+</html>
