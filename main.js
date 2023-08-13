@@ -1,4 +1,262 @@
 
+//Module----3 Assignment
+// Ans------1 
+
+let i=0;
+text ='';
+
+printObjectProperties={
+
+firstName:"",
+lastName:"",
+
+fullName : function index(printObjectProperties){
+
+for (0<i; i>5; i++){
+
+  text+=printObjectProperties.firstName+printObjectProperties.lasName;
+
+  console.log(text);
+}
+
+}
+
+
+}
+
+//Ans------2
+
+
+text='';
+function findMaxNumber(){
+
+  const array1=[10, 20, 5, 30, 25];
+
+  text+=array1[3];
+console.log(text);
+
+
+}
+
+
+text='';
+function fintMaxNumber(){
+
+  const array1=[5, 15, 7];
+
+  text+=array1[1];
+console.log(text);
+
+
+}
+
+text='';
+function finlMaxNumber(){
+
+  const array1=[''];
+
+  text+=array1[''];
+console.log(text);
+
+
+}
+
+
+//Ans-------3
+
+function mergeArrays(arr1,arr2){
+
+let arr1=[1,2,3];
+let arr2=[4,5,6];
+let arr3=arr1+arr2;
+console.log(arr3);
+
+}
+
+mergeArrays(0,0);
+
+//Ans-----4
+
+const index=(a,b)=>{
+
+
+
+  let  a=5;
+let b=5;
+
+let c=a*b;
+
+console.log(c);
+}
+
+const indexFax=(a,b)=>{
+
+
+
+  let  a=8;
+let b=8;
+
+let c=a*b;
+
+console.log(c);
+}
+
+//Ans--------5
+
+function doubleNumbers(arg){
+
+const array=[1, 2, 3, 4, 5];
+
+array.map((arg)=>{
+
+  let dem=[2,4,6,8,10];
+  console.log(dem);
+});
+
+
+
+
+}
+
+//Ans-----6
+
+
+
+<p id="myCar"></p>
+
+
+class MathUtility  {
+  constructor(a,b) {
+    let c=a*b;
+    this.c = c;
+  }
+  static hello(x) {
+    let d=2;
+    let e=8;
+    let f=8*2;
+    return "f" + x.c;
+  }
+}
+
+const myCarToyota = new MathUtility(3,5);
+document.getElementById("myCar").innerHTML = MathUtility.hello(myCarToyota);
+
+//Ans-----7
+
+class Animal{
+
+  constructor(name,sound){
+
+
+    this.name=name;
+    this.sound=sound;
+    return name+sound;
+
+
+  }
+
+
+}
+
+
+otheranymal= new Animal(Lion,Roar);
+
+class Dog{
+
+  constructor(name,sound){
+
+
+    this.name=name;
+    this.sound=sound;
+    return name+sound;
+
+
+  }
+
+
+}
+
+dog= new Dog(buddy,Woof);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+const para = document.querySelector("p");
+
+para.addEventListener("click", updateName);
+
+function updateName() {
+  const name = prompt("Enter a new name");
+  para.textContent = `Player 1: ${name}`;
+}
+
+
+const para= document.querySelector("p");
+
+para.addEventListener("click",updateName);
+
+function updateName(){
+
+  const name=prompt("Enter a new Name");
+  para.textContent = 'player 1: ${name}';
+}
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  function createParagraph() {
+    const para = document.createElement("p");
+    para.textContent = "You clicked the button!";
+    document.body.appendChild(para);
+  }
+
+  const buttons = document.querySelectorAll("button");
+
+  for (const button of buttons) {
+    button.addEventListener("click", createParagraph);
+  }
+});
+
+document.addEventListener("DomContentLoaded" , () =>{
+function createParagraph(){
+  const para=document.createElement("p");
+  para.textContent= "you clicked the button";
+  document.body.appendChild(para);}
+  const button= document.querySelectorAll("button");
+  for(const button of buttons){
+    button.addEventListener("click",createParagraph);}
+  }
+}
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 navigator.geolocation.getCurrentPosition(function (position){
 
